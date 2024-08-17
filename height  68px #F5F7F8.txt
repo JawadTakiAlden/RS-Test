@@ -1,0 +1,80 @@
+height : 68px #F5F7F8
+text : 18px
+
+next 32px
+
+font-family: Cairo;
+font-size: 48px;
+font-weight: 600;
+line-height: 89.95px;
+text-align: right;
+
+width: 134px;
+height: 34px;
+top: 743px;
+left: 928px;
+gap: 0px;
+opacity: 0px;
+
+
+poll title
+
+font-family: Cairo;
+font-size: 62.24px;
+font-weight: 600;
+line-height: 116.63px;
+text-align: right;
+
+
+poll description
+
+font-family: Cairo;
+font-size: 18px;
+font-weight: 400;
+line-height: 33.73px;
+text-align: left;
+
+
+step number
+font-family: Cairo;
+font-size: 14.17px;
+font-weight: 600;
+line-height: 26.55px;
+text-align: left;
+
+font-family: Cairo;
+font-size: 23px;
+font-weight: 700;
+line-height: 43.1px;
+text-align: left;
+
+
+
+
+
+radio 
+
+<div class="bg-white p-6 rounded-lg shadow-lg">
+        <fieldset>
+            <legend class="text-lg font-semibold mb-4">Choose an option:</legend>
+            <div class="flex flex-col space-y-4">
+                <!-- Radio Button Option 1 -->
+                <div class="flex items-center">
+                    <input id="option1" name="options" type="radio" value="option1" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
+                    <label for="option1" class="ml-3 text-gray-700">Option 1</label>
+                </div>
+                
+                <!-- Radio Button Option 2 -->
+                <div class="flex items-center">
+                    <input id="option2" name="options" type="radio" value="option2" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
+                    <label for="option2" class="ml-3 text-gray-700">Option 2</label>
+                </div>
+                
+                <!-- Radio Button Option 3 -->
+                <div class="flex items-center">
+                    <input id="option3" name="options" type="radio" value="option3" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
+                    <label for="option3" class="ml-3 text-gray-700">Option 3</label>
+                </div>
+            </div>
+        </fieldset>
+    </div>
