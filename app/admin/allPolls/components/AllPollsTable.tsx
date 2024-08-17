@@ -131,11 +131,11 @@ const AllPollsTable = () => {
         </button>
       </div>
     </div>
-    {/* <Table
+    <Table
       isLoading={isLoading}
       data={data?.data?.data || []}
       columns={columns}
-    /> */}
+    />
   </div>
   )
 }

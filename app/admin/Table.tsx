@@ -13,7 +13,7 @@ export type TableProps<T> = {
   isLoading: boolean;
 };
 
-const Table = <T,>({ data, columns, isLoading }: TableProps<T>) => {
+const Table = <T,>({ data, columns, isLoading }: TableProps<T | any>) => {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center w-full">
