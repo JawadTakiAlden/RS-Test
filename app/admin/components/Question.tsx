@@ -98,7 +98,7 @@ const QuestionCard = ({
       </div>
       <div className="flex items-center gap-20">
         {question.answers.map((answer) => (
-          <div className="flex items-center gap-[17px] py-5">
+          <div key={answer.id} className="flex items-center gap-[17px] py-5">
             <div className="w-[28px] h-[28px] rounded-full bg-white border-[2px] border-solid border-primary"></div>
             <p>{answer.text}</p>
           </div>
